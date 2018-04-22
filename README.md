@@ -33,10 +33,11 @@ LCDを初期化します。プログラムの終わりには必ず実行して�
 
 ### Examples Of Command
 ```Python
+import lcd_imog as lcd
 import time 
-printLCD('Hello', 'ｺﾝﾊﾞﾝﾊ!') # 1行目に'Hello'、2行目に'ｺﾝﾊﾞﾝﾊ!'を表示
+lcd.printLCD('Hello', 'ｺﾝﾊﾞﾝﾊ!') # 1行目に'Hello'、2行目に'ｺﾝﾊﾞﾝﾊ!'を表示
 time.sleep(5) # 5秒待機
-clearAll() # LCDを初期化
+lcd.clearAll() # LCDを初期化
 ```
 
 ## Future Releases
